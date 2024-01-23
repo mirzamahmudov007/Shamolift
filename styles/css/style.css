@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  background: #282828;
+}
+
+.btn {
+  background: linear-gradient(140deg, #5C5C5C 1.86%, #CDCBCB 44.24%, #5C5C5C 96.52%);
+}
+
+.header {
+  background-image: url("./../../img/Rectangle 82 (1).png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 105px 0;
+}
+.header .card {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+}
+.header .card-title {
+  font-size: 70px;
+}
+
+@media only screen and (max-width: 580px) {
+  .header .card-title {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .header .card-title {
+    font-size: 45px;
+  }
+}
+section {
+  background: #282828;
+}
+
+/*# sourceMappingURL=style.css.map */
